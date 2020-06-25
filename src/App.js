@@ -1,14 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Routes from './Routes';
 
-function App() {
-  return (
-    <div>
-      <button className="btn btn-outline-primary">button</button>
-      <p className="h1">test</p>
-    </div>
-  );
+class App extends Component {
+  render() {
+    const mother_style = {
+      border: '1px solid black'
+    }
+    return (
+      <>
+        <div style= {mother_style} >mother div</div>
+        <Routes />
+      </>
+    )
+  }
 }
 
 export default App;
