@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Routes from './Routes';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
 class App extends Component {
   render() {
